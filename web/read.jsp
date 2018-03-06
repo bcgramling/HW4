@@ -3,11 +3,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Civ VI Leaders</title>
+        <title>JSP Page</title>
     </head>
+    <% String table=(String) request.getAttribute("table");%>
     <body>
-        <h1>My Civilization VI Leaders Database</h1>
-        
-        <a href="read">View All Leaders</a>
+        <h1>Civilization VI Leaders</h1>
+        <%=table %>
     </body>
 </html>
